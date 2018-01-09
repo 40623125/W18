@@ -53,13 +53,16 @@
 <v t="leo.20171108213647.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20171108212812.1" a="E"><vh>W10-W12</vh>
-<v t="leo.20171108212812.2"><vh>Part 1</vh>
+<v t="leo.20171108212812.2" a="E"><vh>Part 1</vh>
 <v t="leo.20171108212812.3"><vh>準備與鼓勵</vh></v>
 </v>
 <v t="leo.20180109203916.1" a="E"><vh>Part 2</vh>
 <v t="leo.20180109203916.2"><vh>大綱</vh></v>
 </v>
-<v t="leo.20171108212812.4" a="E"><vh>Part 3</vh>
+<v t="leo.20180109211253.1" a="E"><vh>Part 3</vh>
+<v t="leo.20180109211253.2"><vh>大綱</vh></v>
+</v>
+<v t="leo.20171108212812.4" a="E"><vh>Part 4</vh>
 <v t="leo.20171108212812.5"><vh>心得</vh></v>
 </v>
 </v>
@@ -70,7 +73,10 @@
 <v t="leo.20171108212807.4" a="E"><vh>Part 2</vh>
 <v t="leo.20171108212807.5"><vh>上課內容</vh></v>
 </v>
-<v t="leo.20171108213837.1" a="E"><vh>Part 3</vh>
+<v t="leo.20180109211420.1" a="E"><vh>Part 3</vh>
+<v t="leo.20180109211420.2"><vh>上課內容</vh></v>
+</v>
+<v t="leo.20171108213837.1" a="E"><vh>Part 4</vh>
 <v t="leo.20171108213845.1"><vh>心得</vh></v>
 </v>
 </v>
@@ -81,10 +87,7 @@
 <v t="leo.20171108214534.1" a="E"><vh>Part 2</vh>
 <v t="leo.20171108214718.1"><vh>大綱</vh></v>
 </v>
-<v t="leo.20171108214934.1" a="E"><vh>Part 3</vh>
-<v t="leo.20171108214949.1"><vh>心得</vh></v>
-</v>
-<v t="leo.20171108215151.1" a="E"><vh>Part 4</vh>
+<v t="leo.20171108215151.1" a="E"><vh>Part 3</vh>
 <v t="leo.20171108215209.1"><vh>期中成績</vh></v>
 </v>
 </v>
@@ -1005,26 +1008,19 @@ doc['ex4'].bind('click',ex4)
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20171108212807.5">##上課內容
+<t tx="leo.20171108212807.5">* ###W13
 
-* W13
+* 如何創建EtherCalc表單
 
-如何創建EtherCalc表單
-透過概念、知識、執行、自學與想像等標示整理課程學習歷程。
+* 透過概念、知識、執行、自學與想像等標示整理課程學習歷程。
 
-* W14
+* ###W14
 
-創建ag4_pyqt5_calculator 期末專案於Github
+* 創建ag6_pyqt5_calculator 期末專案於Github
 
-開始與組員協同製作計算機基本功能
+* 開始與組員協同製作計算機基本功能
 
-處理衝突之方法
-
-* W15
-
-驗收計算機成果
-
-如何製作期末pdf檔</t>
+* 處理衝突之方法</t>
 <t tx="leo.20171108212812.1">&lt;section&gt;
     @others
 &lt;/section&gt;
@@ -1048,7 +1044,9 @@ doc['ex4'].bind('click',ex4)
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20171108212812.5">###學習心得</t>
+<t tx="leo.20171108212812.5">###學習心得
+
+這幾堂課開始接觸github這個新網頁，讓我對計算機程式這門課程又有了全新的目標，希望之後能把之前所學的活用在這個網站上。</t>
 <t tx="leo.20171108213647.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1062,7 +1060,7 @@ doc['ex4'].bind('click',ex4)
 
 ### 虎科大機械設計工程系
 
-###40623125鐘旻諺
+###設計一甲40623125鐘旻諺
 
 [CADP 與 CP 課程網誌](blog/index.html)
 
@@ -1073,7 +1071,9 @@ doc['ex4'].bind('click',ex4)
 @others
     &lt;/script&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20171108213845.1">###學習心得</t>
+<t tx="leo.20171108213845.1">###學習心得
+
+最近開始和組員協同製作計算機之後，突然有一種在工作的感覺，大家一起分工合作，就是為了能讓計算機順利的運作，不但能精進自己編譯程式的能力，也在人與人溝通與合作中學習到許多做人做事的道理。</t>
 <t tx="leo.20171108214456.1">&lt;section&gt;
     @others
 &lt;/section&gt;
@@ -1106,13 +1106,6 @@ doc['ex4'].bind('click',ex4)
 * 40623127-記憶
 
 * 40623135-乘除</t>
-<t tx="leo.20171108214934.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20171108214949.1">###學習心得</t>
 <t tx="leo.20171108215151.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1131,19 +1124,38 @@ doc['ex4'].bind('click',ex4)
     &lt;/script&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20180109203916.2">W10
+<t tx="leo.20180109203916.2">* ###W10
 
-修改start.bat, stop.bat 以及 launchLeo.py, 讓系統啟動時, 自行建立進入特定目錄的命令列視窗, 並且自動開啟特定 Leo Editor 專案
+* 修改start.bat, stop.bat 以及 launchLeo.py, 讓系統啟動時, 自行建立進入特定目錄的命令列視窗, 並且自動開啟特定 Leo Editor 專案
 
-使用 DiaPortable 畫箭頭畫得更加漂亮
+* 使用 DiaPortable 畫箭頭畫得更加漂亮
 
-使用 GIMPPortable 裁剪圖片
+* 使用 GIMPPortable 裁剪圖片
 
-W11
-在 Github 建立倉儲，利用 gh-pages 分支伺服 index.html，新增協同作業者
+* ###W11
 
-W12
-繼承 run.py 與 ui 案數字鍵出現對應數字(用for迴圈 數字的堆疊</t>
+* 在 Github 建立倉儲，利用 gh-pages 分支伺服 index.html，新增協同作業者
+</t>
+<t tx="leo.20180109211253.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20180109211253.2">* ###W12
+
+* 繼承 run.py 與 ui 案數字鍵出現對應數字(用for迴圈 數字的堆疊</t>
+<t tx="leo.20180109211420.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20180109211420.2">* ###W15
+
+* 驗收計算機成果
+
+* 如何製作期末pdf檔</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
